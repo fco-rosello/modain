@@ -11,8 +11,9 @@
         @include('Common.success')
         @include('Common.error')
         <div class="card ">
-            <div class="card-header">
+            <div class="card-header d-flex">
               <span>Marcas</span>
+              <a class="btn btn-primary ml-auto" href="{{ route('marca.create') }}">Crear marca</a>
             </div>
             <div class="card-body">
               <div class="container-fluid table-responsive">
@@ -29,9 +30,10 @@
               </table>
             </div>
             </div>
-            <div class="card-footer">
+           <!-- <div class="card-footer">
               <a class="btn btn-primary" href="{{ route('marca.create') }}">Crear marca</a>
             </div>
+            -->
         </div>
       </div>
     </div>

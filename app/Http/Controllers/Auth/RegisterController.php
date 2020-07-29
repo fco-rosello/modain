@@ -151,9 +151,9 @@ class RegisterController extends Controller
      */
     protected function create(array $data){
         $User = User::create([
-            'nom_cliente' => $data['nombre'],
-            'apellido_paterno' => $data['apellido_paterno'],
-            'apellido_materno' => $data['apellido_materno'],
+            'nom_cliente' => ucfirst($data['nombre']),
+            'apellido_paterno' => ucfirst($data['apellido_paterno']),
+            'apellido_materno' => ucfirst($data['apellido_materno']),
             'rut_cliente' => $data['rut'],
             'cod_ciudad' => $data['ciudad'],
             'telefono' => $data['telefono'],

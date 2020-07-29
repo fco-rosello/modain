@@ -3,7 +3,8 @@
 @section('content')
 @php
     $Total = 0;
-@endphp
+ @endphp
+
 <section class="container-fluid px-0 pt-4">
     <div class="container px-0 mt-4">
       <div class="row">
@@ -26,11 +27,18 @@
                               ->where('cod_producto', '=', $DetallePedido->cod_producto)
                               ->first();
                           $Total = $Total + $DetallePedido->subtotal;
+
+                            $max=DB::table('existencia-producto')
+                                ->select('cantidad')
+                                ->where([['cod_producto', '=', $DetallePedido->cod_producto],
+                                ['cod_talla','=',$DetallePedido->cod_talla]])->value('dantidad');
+                                                 
+
                           @endphp
                           <tr>
                               <td>{{$Producto->nom_producto}}</td>
                               <td>{{$DetallePedido->cod_talla}}</td>
-                              <td>{{$DetallePedido->cantidad}}</td>
+                             <td><input type="number" min=1 max={{$max}} value={{$DetallePedido->cantidad}} ></td>
                               <td>${{ number_format($DetallePedido->precio_venta, 0, ',','.') }}</td>
                               <td>${{ number_format($DetallePedido->subtotal, 0, ',','.') }}</td>
                               <td><a class="btn btn-danger btn-sm" href="eliminardetalle/{{$DetallePedido->cod_producto}}/{{$DetallePedido->cod_talla}}"><i class="fas fa-trash"></i></a></td>

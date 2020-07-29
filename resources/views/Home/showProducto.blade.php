@@ -102,9 +102,12 @@
                       echo '<h4><span class="badge badge badge-danger font-weight-bold mt-4"> Sin reservas </span></h4>';
                     }else {
                       foreach($cantidades as $cantidad){
-                        echo '<div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="cod_talla" id="'.$cantidad->getOriginal('pivot_cod_talla').'_'.$i.'" value="'.$cantidad->getOriginal('pivot_cod_talla').'">
+                        echo '<div class="form-check form-check-inline"><!--class="form-check form-check-inline"-->
+                         
+                         <input class="form-check-input" type="radio" name="cod_talla" id="'.$cantidad->getOriginal('pivot_cod_talla').'_'.$i.'" value="'.$cantidad->getOriginal('pivot_cod_talla').'">
                           <label class="form-check-label" for="'.$cantidad->getOriginal('pivot_cod_talla').'_'.$i.'">'.$cantidad->getOriginal('pivot_cod_talla').'</label>
+                          <!--<input type="number" name="cod_talla" id="'.$cantidad->getOriginal('pivot_cod_talla').'_'.$i.'" max="'.$cantidad->getOriginal('pivot_cantidad').'" min=0>-->
+                          
                         </div>';
                         if((int)$cantidad->getOriginal('pivot_cantidad') > 5){
                           echo '<span class="badge badge-info mr-2">'.$cantidad->getOriginal('pivot_cantidad').'</span>';
@@ -113,6 +116,7 @@
                         }
                         $stock = $stock + $cantidad->getOriginal('pivot_cantidad');
                         $i++;
+                        echo '<br/>';
                       }
                     }
                   @endphp

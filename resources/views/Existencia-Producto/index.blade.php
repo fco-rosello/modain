@@ -10,32 +10,34 @@
       <div id="mostrar_existencia_producto" class="col-lg col-sm col-md mt-4">
         @include('Common.success')
         <div class="card ">
-            <div class="card-header">
-              <span>Existencia de Productos</span>
-            </div>
-            <div class="card-body">
+          <div class="card-header d-flex" >
+              <span >Existencia de Productos</span>
+              <a class="btn btn-primary ml-auto" href="{{ route('existencia-producto.create') }}">Crear existencia de producto</a>
+          </div>
+          <div class="card-body">
             <div class="container-fluid table-responsive">
               <table id="ExistenciaProductos"  class="table table-bordered table-hover table-striped dt-responsive display nowrap" cellspacing="0"
                 width="100%">
                 <thead class = "theade-danger">
                   <tr>
-                    <th>Codigo producto</th>
-                    <th>Codigo bodega</th>
-                    <th>Codigo talla</th>
-                    <th>Nombre tienda</th>
+                    <th>Cod producto</th>
+                    <th>Cod bodega</th>
+                    <th>Talla</th>
+                    <th>Tienda</th>
                     <th>Proveedor</th>
                     <th>Precio de compra</th>
                     <th>Cantidad</th>
-                    <th>Tiempo de creación</th>
-                    <th>Tiempo de la ultima modificación</th>
+                    <th>fecha de creación</th>
+                    <th>fecha de modificación</th>
                   </tr>
                 </thead>
               </table>
-          </div>
             </div>
-            <div class="card-footer">
+          </div>
+          <!--  <div class="card-footer">
                 <a class="btn btn-primary" href="{{ route('existencia-producto.create') }}">Crear existencia de producto</a>
             </div>
+          -->
         </div>
       </div>
     </div>
