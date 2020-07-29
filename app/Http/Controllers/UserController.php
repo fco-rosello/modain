@@ -1,8 +1,8 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
-use genericlothing\Ciudad;
-use genericlothing\User;
+namespace modain\Http\Controllers;
+use modain\Ciudad;
+use modain\User;
 use Illuminate\Http\Request;
 
 class UserController extends Controller

@@ -1,12 +1,12 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
 use Illuminate\Http\Request;
-use genericlothing\TipoProducto;
-use genericlothing\Producto;
-use genericlothing\Marca;
-use genericlothing\Talla;
+use modain\TipoProducto;
+use modain\Producto;
+use modain\Marca;
+use modain\Talla;
 use DB;
 
 class GuestController extends Controller

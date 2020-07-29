@@ -1,19 +1,19 @@
 <?php
 
-namespace genericlothing\Http\Controllers\Auth;
+namespace modain\Http\Controllers\Auth;
 
-use genericlothing\User;
-use genericlothing\Http\Controllers\Controller;
+use modain\User;
+use modain\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Http\Request;
 use Auth;
-use genericlothing\Ciudad;
-use genericlothing\Pedido;
-use genericlothing\TipoProducto;
-use genericlothing\Marca;
-use genericlothing\Talla;
+use modain\Ciudad;
+use modain\Pedido;
+use modain\TipoProducto;
+use modain\Marca;
+use modain\Talla;
 use DB;
 use Illuminate\Auth\Events\Registered;
 
@@ -147,7 +147,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \genericlothing\User
+     * @return \modain\User
      */
     protected function create(array $data){
         $User = User::create([

@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing\Http\Middleware;
+namespace modain\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

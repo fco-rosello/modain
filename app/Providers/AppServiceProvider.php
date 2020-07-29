@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing\Providers;
+namespace modain\Providers;
 
 use Validator;
 use Illuminate\Support\Facades\Schema;

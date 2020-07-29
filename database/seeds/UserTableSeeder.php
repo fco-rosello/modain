@@ -16,7 +16,7 @@ class UserTableSeeder extends Seeder
           'apellido_paterno' => 'foo',
           'apellido_materno' => 'bar',
           'rut_cliente' => '00000000-0',
-          'cod_ciudad' => '0',
+          'cod_ciudad' => '1',
           'telefono' => '00000000',
           'email' => 'admin@genericlothing.com',
           'password' => Hash::make('secret'),

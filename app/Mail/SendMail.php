@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing\Mail;
+namespace modain\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

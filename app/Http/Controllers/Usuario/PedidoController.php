@@ -1,14 +1,14 @@
 <?php
 
-namespace genericlothing\Http\Controllers\Usuario;
+namespace modain\Http\Controllers\Usuario;
 
 use Illuminate\Http\Request;
-use genericlothing\Http\Controllers\Controller;
-use genericlothing\TipoProducto;
-use genericlothing\Talla;
-use genericlothing\Marca;
-use genericlothing\Pedido;
-use genericlothing\DetallePedido;
+use modain\Http\Controllers\Controller;
+use modain\TipoProducto;
+use modain\Talla;
+use modain\Marca;
+use modain\Pedido;
+use modain\DetallePedido;
 use DB;
 
 class PedidoController extends Controller

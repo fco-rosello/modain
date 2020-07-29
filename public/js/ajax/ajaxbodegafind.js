@@ -4,7 +4,7 @@ $(document).ready(function(){
       var ctienda = $("#cod_tienda").val();
       $.ajax({
         type: 'get',
-        url:"http://genericlothing.site/ajax-BodegasFind" ,
+        url:"/ajax-BodegasFind" ,
         data: {
           "ctienda": ctienda,
         },
@@ -20,7 +20,7 @@ $(document).ready(function(){
       var ctienda = $("#cod_tienda").val();
       $.ajax({
         type: 'get',
-        url:"http://genericlothing.site/ajax-BodegasFind" ,
+        url:"/ajax-BodegasFind" ,
         data: {
           "ctienda": ctienda,
         },

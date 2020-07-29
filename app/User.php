@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing;
+namespace modain;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;

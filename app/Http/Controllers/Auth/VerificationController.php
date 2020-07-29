@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing\Http\Controllers\Auth;
+namespace modain\Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

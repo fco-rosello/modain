@@ -1,12 +1,12 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
-use genericlothing\Producto;
-use genericlothing\Talla;
-use genericlothing\Tienda;
-use genericlothing\Bodega;
-use genericlothing\ExistenciaProducto;
-use genericlothing\Http\Requests\StoreExistenciaProductoRequest;
+namespace modain\Http\Controllers;
+use modain\Producto;
+use modain\Talla;
+use modain\Tienda;
+use modain\Bodega;
+use modain\ExistenciaProducto;
+use modain\Http\Requests\StoreExistenciaProductoRequest;
 use Illuminate\Http\Request;
 use DB;
 class ExistenciaProductoController extends Controller

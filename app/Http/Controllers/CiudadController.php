@@ -1,11 +1,11 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\Ciudad;
+use modain\Ciudad;
 use Illuminate\Http\Request;
-use genericlothing\Http\Requests\StoreCiudadRequest;
-use genericlothing\Http\Requests\UpdateCiudadRequest;
+use modain\Http\Requests\StoreCiudadRequest;
+use modain\Http\Requests\UpdateCiudadRequest;
 use DB;
 class CiudadController extends Controller
 {

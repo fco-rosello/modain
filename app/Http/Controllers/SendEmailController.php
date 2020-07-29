@@ -1,13 +1,13 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
-use genericlothing\TipoProducto;
-use genericlothing\Marca;
-use genericlothing\Talla;
+namespace modain\Http\Controllers;
+use modain\TipoProducto;
+use modain\Marca;
+use modain\Talla;
 use Illuminate\Http\Request;
-use genericlothing\Http\Requests\SendEmailRequest;
+use modain\Http\Requests\SendEmailRequest;
 use Illuminate\Support\Facades\Mail;
-use genericlothing\Mail\SendMail;
+use modain\Mail\SendMail;
 
 class SendEmailController extends Controller
 {

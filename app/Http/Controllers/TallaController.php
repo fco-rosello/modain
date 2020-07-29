@@ -1,11 +1,11 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\Talla;
+use modain\Talla;
 use Illuminate\Http\Request;
-use genericlothing\Http\Requests\StoreTallaRequest;
-use genericlothing\Http\Requests\UpdateTallaRequest;
+use modain\Http\Requests\StoreTallaRequest;
+use modain\Http\Requests\UpdateTallaRequest;
 use DB;
 class TallaController extends Controller
 {

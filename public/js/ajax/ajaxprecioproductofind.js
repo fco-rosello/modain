@@ -4,7 +4,7 @@ $(document).ready(function(){
       var codProducto = $('#cod_producto').val();
       $.ajax({
         type: 'get',
-        url:"http://genericlothing.site/ajax-PecioProductoFind",
+        url:"/ajax-PecioProductoFind",
         data: {
           "codProducto": codProducto,
         },
@@ -20,7 +20,7 @@ $(document).ready(function(){
       var codProducto = $('#cod_producto').val();
       $.ajax({
         type: 'get',
-        url:"http://genericlothing.site/ajax-PecioProductoFind",
+        url:"/ajax-PecioProductoFind",
         data: {
           "codProducto": codProducto,
         },

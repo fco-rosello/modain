@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing\Providers;
+namespace modain\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'genericlothing\Model' => 'genericlothing\Policies\ModelPolicy',
+        'modain\Model' => 'modain\Policies\ModelPolicy',
     ];
 
     /**

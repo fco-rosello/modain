@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing\Http\Middleware;
+namespace modain\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing\Http\Requests;
+namespace modain\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

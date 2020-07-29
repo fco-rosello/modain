@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing;
+namespace modain;
 
 use Illuminate\Database\Eloquent\Model;
 use DB;

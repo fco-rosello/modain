@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing\Console;
+namespace modain\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

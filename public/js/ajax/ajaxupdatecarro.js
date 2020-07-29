@@ -4,7 +4,7 @@ $(document).ready(function(){
       var ctienda = $("#cod_tienda").val();
       $.ajax({
         type: 'get',
-        url:"http://genericlothing.site/ajax-UpdateCarro" ,
+        url:"/ajax-UpdateCarro" ,
         dataType: 'text',
         success: function(data){
           console.log(data);

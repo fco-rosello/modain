@@ -1,13 +1,13 @@
 <?php
 
-namespace genericlothing\Http\Controllers\Usuario;
+namespace modain\Http\Controllers\Usuario;
 
 use Illuminate\Http\Request;
-use genericlothing\Http\Controllers\Controller;
-use genericlothing\TipoProducto;
-use genericlothing\Talla;
-use genericlothing\Marca;
-use genericlothing\Ciudad;
+use modain\Http\Controllers\Controller;
+use modain\TipoProducto;
+use modain\Talla;
+use modain\Marca;
+use modain\Ciudad;
 
 class PagoController extends Controller
 {
@@ -21,6 +21,7 @@ class PagoController extends Controller
         $Marcas = TipoProducto::all();
         $Tallas = Talla::all();
         $Ciudades = Ciudad::all();
-        return view('Home.pago', compact('TipoProductos','DetallesPedido','Marcas','Tallas','Ciudades'));
+        return view('Home.pago', compact('TipoProductos','Marcas','Tallas','Ciudades'));
+        //,'DetallesPedido'
     }
 }

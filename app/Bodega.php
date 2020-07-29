@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing;
+namespace modain;
 
 use ExistenciaProducto;
 use Illuminate\Database\Eloquent\Model;
@@ -13,12 +13,12 @@ class Bodega extends Model
     public $timestamps = false;
 
     public function productos(){
-      return $this->belongsToMany('genericlothing\Producto','existencia-producto','cod_bodega','cod_producto');
+      return $this->belongsToMany('modain\Producto','existencia-producto','cod_bodega','cod_producto');
     }
     public function tallas(){
-      return $this->belongsToMany('genericlothing\Talla','existencia-producto','cod_bodega','cod_talla');
+      return $this->belongsToMany('modain\Talla','existencia-producto','cod_bodega','cod_talla');
     }
     public function tiendas(){
-      return $this->belongsToMany('genericlothing\Tienda','existencia-producto','cod_bodega','cod_tienda');
+      return $this->belongsToMany('modain\Tienda','existencia-producto','cod_bodega','cod_tienda');
     }
 }

@@ -1,10 +1,10 @@
 <?php
 
-namespace genericlothing\Http\Controllers\Usuario;
+namespace modain\Http\Controllers\Usuario;
 
 use Illuminate\Http\Request;
-use genericlothing\Http\Controllers\Controller;
-use genericlothing\Producto;
+use modain\Http\Controllers\Controller;
+use modain\Producto;
 
 class UsuarioProductosController extends Controller
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\Pedido;
+use modain\Pedido;
 use Illuminate\Http\Request;
-use genericlothing\DetallePedido;
+use modain\DetallePedido;
 use DB;
 
 class PedidoController extends Controller

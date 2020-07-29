@@ -1,12 +1,12 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\Ciudad;
-use genericlothing\Tienda;
+use modain\Ciudad;
+use modain\Tienda;
 use Illuminate\Http\Request;
-use genericlothing\Http\Requests\StoreTiendaRequest;
-use genericlothing\Http\Requests\UpdateTiendaRequest;
+use modain\Http\Requests\StoreTiendaRequest;
+use modain\Http\Requests\UpdateTiendaRequest;
 use DB;
 class TiendaController extends Controller
 {

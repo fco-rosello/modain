@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="shortcut icon" href="{{{ asset('faviconadmin.png') }}}">
     @yield('css')
-    <title>Genericlothing @yield('title')</title>
+    <title>ModaIn @yield('title')</title>
   </head>
   <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="{{route('home')}}">Genericlothing</a>
+          <a class="navbar-brand" href="{{route('home')}}">ModaIn</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>

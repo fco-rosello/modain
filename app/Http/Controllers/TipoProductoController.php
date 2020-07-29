@@ -1,11 +1,11 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\TipoProducto;
+use modain\TipoProducto;
 use Illuminate\Http\Request;
-use genericlothing\Http\Requests\StoreTipoProductoRequest;
-use genericlothing\Http\Requests\UpdateTipoProductoRequest;
+use modain\Http\Requests\StoreTipoProductoRequest;
+use modain\Http\Requests\UpdateTipoProductoRequest;
 use DB;
 class TipoProductoController extends Controller
 {

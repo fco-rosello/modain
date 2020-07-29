@@ -1,11 +1,11 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\Tienda;
-use genericlothing\Bodega;
+use modain\Tienda;
+use modain\Bodega;
 use Illuminate\Http\Request;
-use genericlothing\Http\Requests\StoreBodegaRequest;
+use modain\Http\Requests\StoreBodegaRequest;
 use DB;
 class BodegaController extends Controller
 {

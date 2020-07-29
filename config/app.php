@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        genericlothing\Providers\AppServiceProvider::class,
-        genericlothing\Providers\AuthServiceProvider::class,
-        // genericlothing\Providers\BroadcastServiceProvider::class,
-        genericlothing\Providers\EventServiceProvider::class,
-        genericlothing\Providers\RouteServiceProvider::class,
+        modain\Providers\AppServiceProvider::class,
+        modain\Providers\AuthServiceProvider::class,
+        // modain\Providers\BroadcastServiceProvider::class,
+        modain\Providers\EventServiceProvider::class,
+        modain\Providers\RouteServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
 
     ],

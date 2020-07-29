@@ -1,9 +1,9 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\Envio;
-use genericlothing\Venta;
+use modain\Envio;
+use modain\Venta;
 use Illuminate\Http\Request;
 use DB;
 class EnvioController extends Controller

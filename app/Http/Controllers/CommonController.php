@@ -1,11 +1,11 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\Talla;
-use genericlothing\Bodega;
-use genericlothing\Tienda;
-use genericlothing\Producto;
+use modain\Talla;
+use modain\Bodega;
+use modain\Tienda;
+use modain\Producto;
 use Illuminate\Http\Request;
 
 class CommonController extends Controller

@@ -1,12 +1,12 @@
 <?php
 
-namespace genericlothing\Http\Controllers\Auth;
+namespace modain\Http\Controllers\Auth;
 
 use Illuminate\Support\Facades\Auth;
-use genericlothing\Http\Controllers\Controller;
-use genericlothing\TipoProducto;
-use genericlothing\Marca;
-use genericlothing\Talla;
+use modain\Http\Controllers\Controller;
+use modain\TipoProducto;
+use modain\Marca;
+use modain\Talla;
 use Session;
 class LoginController extends Controller
 {

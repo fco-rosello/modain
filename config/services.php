@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => genericlothing\User::class,
+        'model' => modain\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

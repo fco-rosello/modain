@@ -1,10 +1,10 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
 use Illuminate\Http\Request;
-use genericlothing\Tienda;
-use genericlothing\Producto;
+use modain\Tienda;
+use modain\Producto;
 use DB;
 class AjaxController extends Controller
 {

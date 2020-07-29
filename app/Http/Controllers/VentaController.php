@@ -1,8 +1,8 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\Venta;
+use modain\Venta;
 use Illuminate\Http\Request;
 use DB;
 class VentaController extends Controller

@@ -1,17 +1,17 @@
 <?php
 
-namespace genericlothing\Http\Controllers\Usuario;
+namespace modain\Http\Controllers\Usuario;
 
 use Illuminate\Http\Request;
-use genericlothing\Http\Requests\StoreVentaRequest;
-use genericlothing\Http\Controllers\Controller;
-use genericlothing\Venta;
-use genericlothing\DetalleVenta;
-use genericlothing\DetallePedido;
-use genericlothing\ExistenciaProducto;
-use genericlothing\Envio;
-use genericlothing\Pedido;
-use genericlothing\Tienda;
+use modain\Http\Requests\StoreVentaRequest;
+use modain\Http\Controllers\Controller;
+use modain\Venta;
+use modain\DetalleVenta;
+use modain\DetallePedido;
+use modain\ExistenciaProducto;
+use modain\Envio;
+use modain\Pedido;
+use modain\Tienda;
 
 use DB;
 

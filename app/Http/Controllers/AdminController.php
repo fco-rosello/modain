@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
 use Illuminate\Http\Request;
 

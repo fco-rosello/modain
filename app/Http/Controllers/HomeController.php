@@ -1,16 +1,16 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
 use Illuminate\Http\Request;
-use genericlothing\Ciudad;
-use genericlothing\TipoProducto;
-use genericlothing\Producto;
-use genericlothing\Marca;
-use genericlothing\Talla;
-use genericlothing\Venta;
-use genericlothing\Envio;
-use genericlothing\Http\Requests\ConfiguracionUserRequest;
+use modain\Ciudad;
+use modain\TipoProducto;
+use modain\Producto;
+use modain\Marca;
+use modain\Talla;
+use modain\Venta;
+use modain\Envio;
+use modain\Http\Requests\ConfiguracionUserRequest;
 use DB;
 
 class HomeController extends Controller

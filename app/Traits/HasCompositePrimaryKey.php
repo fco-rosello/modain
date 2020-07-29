@@ -1,6 +1,6 @@
 <?php
 
-namespace genericlothing\Traits;
+namespace modain\Traits;
 use Illuminate\Database\Eloquent\Builder;
 
 trait HasCompositePrimaryKey

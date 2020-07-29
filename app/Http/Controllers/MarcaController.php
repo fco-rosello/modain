@@ -1,11 +1,11 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\Marca;
+use modain\Marca;
 use Illuminate\Http\Request;
-use genericlothing\Http\Requests\StoreMarcaRequest;
-use genericlothing\Http\Requests\UpdateMarcaRequest;
+use modain\Http\Requests\StoreMarcaRequest;
+use modain\Http\Requests\UpdateMarcaRequest;
 use DB;
 class MarcaController extends Controller
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace genericlothing\Http\Controllers\Auth;
+namespace modain\Http\Controllers\Auth;
 
-use genericlothing\Http\Controllers\Controller;
+use modain\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class ResetPasswordController extends Controller

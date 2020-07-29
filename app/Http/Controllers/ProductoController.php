@@ -1,13 +1,13 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 
-use genericlothing\Marca;
-use genericlothing\TipoProducto;
-use genericlothing\Producto;
+use modain\Marca;
+use modain\TipoProducto;
+use modain\Producto;
 use Illuminate\Http\Request;
-use genericlothing\Http\Requests\StoreProductoRequest;
-use genericlothing\Http\Requests\UpdateProductoRequest;
+use modain\Http\Requests\StoreProductoRequest;
+use modain\Http\Requests\UpdateProductoRequest;
 use File;
 use Illuminate\Filesystem\Filesystem;
 use DB;

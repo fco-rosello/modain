@@ -1,9 +1,9 @@
 <?php
 
-namespace genericlothing\Http\Controllers;
+namespace modain\Http\Controllers;
 use Auth;
 use Illuminate\Http\Request;
-use genericlothing\User;
+use modain\User;
 use DB;
 class DeleteUserController extends Controller
 {

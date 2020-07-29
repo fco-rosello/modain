@@ -49,12 +49,20 @@
 
                 <label for="direccion_bodega">Direccion de la bodega</label>
                 <select class="form-control" name="direccion_bodega" id="direccion_bodega">
+				    <!--@foreach ($Bodegas as $Bodega)
+                     @if ($Bodega->estado == 0 and $Bodega->cod_tienda==old('cod_tienda'))
+                       <option value="{{$Direccion_seleccionada = $Bodega->cod_bodega}}" {{ old('cod_bodega') == $Bodega->cod_bodega ? "selected" : " " }}>{{$Bodega->direccion_bodega}}</option>
+                    @endif
+                   @endforeach
+				-->
                 </select>
 
                 <label for="proveedor">Proveedor</label>
                 <input class="form-control" type="text" id="proveedor" name="proveedor" value="{{ old('proveedor') }}">
 
                 <label for="precio_compra">Precio de compra</label>
+                <!--<input class="form-control" type="text" id="precio_compra" name="precio_compra" value="{{ old('precio_compra') }}">-->
+
                 <div id="divPrecioCompra">
                 </div>
 
